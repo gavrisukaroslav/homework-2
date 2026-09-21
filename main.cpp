@@ -6,4 +6,9 @@ double powerNumber(double base, int exponent) {
         result *= base;
     }
     return result;
+
+double KrylovFunction(double x) {
+    return x + 1.0; 
 }
+
+
