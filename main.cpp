@@ -1,9 +1,5 @@
-#include "functions.h"
+#include <cmath>
 
-double powerNumber(double base, int exponent) {
-    double result = 1.0;
-    for (int i = 0; i < exponent; ++i) {
-        result *= base;
-    }
-    return result;
+double postolskiyFunction(double x) {
+    return (x * x - 4.0 * x + 7.0) / (std::abs(x) + 1.0);
 }
