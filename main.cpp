@@ -7,3 +7,9 @@ double powerNumber(double base, int exponent) {
     }
     return result;
 }
+
+void funcPolishuk (int a, int b) {
+    if (a > b) { std::cout << "Number: " << a << " more than: " << b << std::endl; }
+    if (a == b) { std::cout << "Number: " << a << " is equal to: " << b << std::endl; }
+    if (a < b) { std::cout << "Number: " << a << " less than: " << b << std::endl; }
+}
